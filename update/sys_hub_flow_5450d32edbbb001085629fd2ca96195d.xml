@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description>Steps to approve and fulfill NeedIt requests.</description>
         <internal_name>needit_fulfillment</internal_name>
-        <label_cache>[{"name":"Created_1.current.u_requested_for","label":"Trigger➛NeedIt Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"u_requested_for"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"c3d8c328-a45e-4931-861f-eb723c5dffa8.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"594c7a2f-b92e-44cf-9555-f1f76c1a408c.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"d67f4656-a989-4354-8946-1e4f976fe46e.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"d67f4656-a989-4354-8946-1e4f976fe46e.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"cd864a84-c083-4ed8-a1e8-85ca613f3540.record","label":"4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"cd864a84-c083-4ed8-a1e8-85ca613f3540.table_name","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_request_type","label":"3.1➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_what_needed","label":"3.1➛NeedIt Record➛What needed","reference":"","reference_display":"What needed","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_what_needed"},{"name":"Created_1.current.priority","label":"Trigger➛NeedIt Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"priority"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.priority","label":"Trigger➛NeedIt Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"priority"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_what_needed","label":"3.1➛NeedIt Record➛What needed","reference":"","reference_display":"What needed","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_what_needed"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_request_type","label":"3.1➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"cd864a84-c083-4ed8-a1e8-85ca613f3540.table_name","label":"4.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"cd864a84-c083-4ed8-a1e8-85ca613f3540.record","label":"4.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"d67f4656-a989-4354-8946-1e4f976fe46e.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"d67f4656-a989-4354-8946-1e4f976fe46e.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"594c7a2f-b92e-44cf-9555-f1f76c1a408c.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"c3d8c328-a45e-4931-861f-eb723c5dffa8.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.u_requested_for","label":"Trigger➛NeedIt Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"u_requested_for"},{"name":"59286ca3-44a4-4413-af6b-4d81b8cc3cbb.answer","label":"3.2➛Assignee Category Record","reference":"x_58872_needit_assignee_category","reference_display":"Assignee Category","type":"reference","base_type":"reference"},{"name":"b661c471-d35f-4115-8f2f-a62c7cac1b4a.Record","label":"3.2.1.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b661c471-d35f-4115-8f2f-a62c7cac1b4a.Table","label":"3.2.1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"59286ca3-44a4-4413-af6b-4d81b8cc3cbb.answer.assignee","label":"3.2➛Assignee Category Record➛Assignee","reference":"sys_user","reference_display":"Assignee","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_assignee_category","column_name":"assignee"},{"name":"eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_when_needed","label":"3.1➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"}]</label_cache>
         <latest_snapshot>6ada97aadbfb001085629fd2ca9619fc</latest_snapshot>
         <master_snapshot>6ada97aadbfb001085629fd2ca9619fc</master_snapshot>
         <name>NeedIt Fulfillment</name>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5450d32edbbb001085629fd2ca96195d</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>NeedIt Fulfillment</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_5450d32edbbb001085629fd2ca96195d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5450d32edbbb001085629fd2ca96195d"/>
@@ -65,7 +65,7 @@
         <sys_updated_on>2020-03-30 09:03:15</sys_updated_on>
         <table>x_58872_needit_needit</table>
     </sys_flow_record_trigger>
-    <sys_hub_flow_component action="delete_multiple" query="flow=5450d32edbbb001085629fd2ca96195d^sys_idNOT IN21387366db7f001085629fd2ca9619a6,30630032dbbf001085629fd2ca961920,4347f326db7f001085629fd2ca9619cd,70630032dbbf001085629fd2ca96191e,78630032dbbf001085629fd2ca96191b,78d0d362dbfb001085629fd2ca9619c6,7d387366db7f001085629fd2ca9619af,8747f326db7f001085629fd2ca9619c8,f5387366db7f001085629fd2ca9619ad"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=5450d32edbbb001085629fd2ca96195d^sys_idNOT IN21387366db7f001085629fd2ca9619a6,30630032dbbf001085629fd2ca961920,4347f326db7f001085629fd2ca9619cd,70630032dbbf001085629fd2ca96191e,78630032dbbf001085629fd2ca96191b,78d0d362dbfb001085629fd2ca9619c6,7d387366db7f001085629fd2ca9619af,8486ccb2dbbf001085629fd2ca961983,8747f326db7f001085629fd2ca9619c8,f5387366db7f001085629fd2ca9619ad"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -81,10 +81,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:23:11</sys_created_on>
         <sys_id>21387366db7f001085629fd2ca9619a6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <ui_id>eae50dce-dfec-4985-9d25-b55fbf7db509</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21387366db7f001085629fd2ca9619a6"/>
@@ -236,10 +236,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 10:12:00</sys_created_on>
         <sys_id>30630032dbbf001085629fd2ca961920</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>59286ca3-44a4-4413-af6b-4d81b8cc3cbb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -342,10 +342,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:19:11</sys_created_on>
         <sys_id>4347f326db7f001085629fd2ca9619cd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>bc75c4fb-8da2-4d8c-bcb5-cbdad1ae7ced</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -397,10 +397,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 10:12:00</sys_created_on>
         <sys_id>70630032dbbf001085629fd2ca96191e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>d3a19039-b12e-490b-b3b1-c23004004d1b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -438,10 +438,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 10:12:00</sys_created_on>
         <sys_id>78630032dbbf001085629fd2ca96191b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>2e7e37b0-e295-4c85-93be-3d6d020f0d6f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -476,10 +476,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 06:31:06</sys_created_on>
         <sys_id>78d0d362dbfb001085629fd2ca9619c6</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <ui_id>d67f4656-a989-4354-8946-1e4f976fe46e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=78d0d362dbfb001085629fd2ca9619c6"/>
@@ -630,15 +630,76 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:23:11</sys_created_on>
         <sys_id>7d387366db7f001085629fd2ca9619af</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>11eb73c7-8679-4a75-802e-1f202a79288b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=7d387366db7f001085629fd2ca9619af"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type>
+        <action_type_parent/>
+        <comment>Create High Priority Legal request NeedIt Task</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">5450d32edbbb001085629fd2ca96195d</flow>
+        <order>3.2.1.1</order>
+        <parent_ui_id>2e7e37b0-e295-4c85-93be-3d6d020f0d6f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>8486ccb2dbbf001085629fd2ca961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <ui_id>b661c471-d35f-4115-8f2f-a62c7cac1b4a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8486ccb2dbbf001085629fd2ca961983"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8486ccb2dbbf001085629fd2ca961983</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>c486ccb2dbbf001085629fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8486ccb2dbbf001085629fd2ca961983"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>8486ccb2dbbf001085629fd2ca961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>4486ccb2dbbf001085629fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>u_needit={{eae50dce-dfec-4985-9d25-b55fbf7db509.record}}^assigned_to={{59286ca3-44a4-4413-af6b-4d81b8cc3cbb.answer.assignee}}^due_date={{eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_when_needed}}^short_description=Complete High Priority Legal NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>8486ccb2dbbf001085629fd2ca961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>8086ccb2dbbf001085629fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -654,10 +715,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:19:11</sys_created_on>
         <sys_id>8747f326db7f001085629fd2ca9619c8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <ui_id>c3d8c328-a45e-4931-861f-eb723c5dffa8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8747f326db7f001085629fd2ca9619c8"/>
@@ -933,10 +994,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:23:11</sys_created_on>
         <sys_id>f5387366db7f001085629fd2ca9619ad</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>cd864a84-c083-4ed8-a1e8-85ca613f3540</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5387366db7f001085629fd2ca9619ad"/>
@@ -1079,10 +1140,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 06:31:06</sys_created_on>
         <sys_id>38d0d362dbfb001085629fd2ca9619c2</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1292,7 +1353,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=5450d32edbbb001085629fd2ca96195d^sys_idNOT IN21387366db7f001085629fd2ca9619a6,78d0d362dbfb001085629fd2ca9619c6,8747f326db7f001085629fd2ca9619c8,f5387366db7f001085629fd2ca9619ad"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5450d32edbbb001085629fd2ca96195d^sys_idNOT IN21387366db7f001085629fd2ca9619a6,78d0d362dbfb001085629fd2ca9619c6,8486ccb2dbbf001085629fd2ca961983,8747f326db7f001085629fd2ca9619c8,f5387366db7f001085629fd2ca9619ad"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1308,10 +1369,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:23:11</sys_created_on>
         <sys_id>21387366db7f001085629fd2ca9619a6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <ui_id>eae50dce-dfec-4985-9d25-b55fbf7db509</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21387366db7f001085629fd2ca9619a6"/>
@@ -1459,10 +1520,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 06:31:06</sys_created_on>
         <sys_id>78d0d362dbfb001085629fd2ca9619c6</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <ui_id>d67f4656-a989-4354-8946-1e4f976fe46e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=78d0d362dbfb001085629fd2ca9619c6"/>
@@ -1598,6 +1659,67 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type>
+        <action_type_parent/>
+        <comment>Create High Priority Legal request NeedIt Task</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">5450d32edbbb001085629fd2ca96195d</flow>
+        <order>3.2.1.1</order>
+        <parent_ui_id>2e7e37b0-e295-4c85-93be-3d6d020f0d6f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>8486ccb2dbbf001085629fd2ca961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <ui_id>b661c471-d35f-4115-8f2f-a62c7cac1b4a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8486ccb2dbbf001085629fd2ca961983"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8486ccb2dbbf001085629fd2ca961983</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>c486ccb2dbbf001085629fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8486ccb2dbbf001085629fd2ca961983"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>8486ccb2dbbf001085629fd2ca961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>4486ccb2dbbf001085629fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>u_needit={{eae50dce-dfec-4985-9d25-b55fbf7db509.record}}^assigned_to={{59286ca3-44a4-4413-af6b-4d81b8cc3cbb.answer.assignee}}^due_date={{eae50dce-dfec-4985-9d25-b55fbf7db509.record.u_when_needed}}^short_description=Complete High Priority Legal NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>8486ccb2dbbf001085629fd2ca961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 10:25:36</sys_created_on>
+        <sys_id>8086ccb2dbbf001085629fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment>Get approval from Requested for's Manager</comment>
@@ -1610,10 +1732,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:19:11</sys_created_on>
         <sys_id>8747f326db7f001085629fd2ca9619c8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:36</sys_updated_on>
         <ui_id>c3d8c328-a45e-4931-861f-eb723c5dffa8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8747f326db7f001085629fd2ca9619c8"/>
@@ -1889,10 +2011,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:23:11</sys_created_on>
         <sys_id>f5387366db7f001085629fd2ca9619ad</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>cd864a84-c083-4ed8-a1e8-85ca613f3540</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5387366db7f001085629fd2ca9619ad"/>
@@ -2045,10 +2167,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 10:12:00</sys_created_on>
         <sys_id>30630032dbbf001085629fd2ca961920</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>59286ca3-44a4-4413-af6b-4d81b8cc3cbb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2151,10 +2273,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:19:11</sys_created_on>
         <sys_id>4347f326db7f001085629fd2ca9619cd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>bc75c4fb-8da2-4d8c-bcb5-cbdad1ae7ced</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2206,10 +2328,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 10:12:00</sys_created_on>
         <sys_id>70630032dbbf001085629fd2ca96191e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>d3a19039-b12e-490b-b3b1-c23004004d1b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2247,10 +2369,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 10:12:00</sys_created_on>
         <sys_id>78630032dbbf001085629fd2ca96191b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>2e7e37b0-e295-4c85-93be-3d6d020f0d6f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2288,10 +2410,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 09:23:11</sys_created_on>
         <sys_id>7d387366db7f001085629fd2ca9619af</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 10:12:00</sys_updated_on>
+        <sys_updated_on>2020-03-30 10:25:37</sys_updated_on>
         <ui_id>11eb73c7-8679-4a75-802e-1f202a79288b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
